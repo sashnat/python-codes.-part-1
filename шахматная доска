@@ -4,13 +4,22 @@ x2 = int(input())
 y2 = int(input())
 if x1 % 2 == 0 and y1 % 2 == 0:
     if x2 % 2 == 0 and y2 % 2 == 0:
-        print ('yes')
+        print ("yes")
     elif x2 % 2 != 0 and y2 % 2 != 0:
-        print ('yes')
+        print ("yes")
     else:
-        print ('no')
-if x1 % 2 != 0 or y1 % 2 != 0:
+        print ("no")
+elif x1 % 2 != 0 and y1 % 2 != 0:
+    if x2 % 2 == 0 and y2 % 2 == 0:
+        print ("yes")
+    elif x2 % 2 != 0 and y2 % 2 != 0:
+        print ("yes")
+    else:
+        print ("no")
+else:
     if x2 % 2 != 0 and y2 % 2 != 0:
-        print ('no')
+        print ("no")
     elif x2 % 2 != 0 or y2 % 2 != 0:
-        print ('yes')
+        print ("yes")
+    else:
+         print ("no")
