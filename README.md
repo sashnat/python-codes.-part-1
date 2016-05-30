@@ -1,3 +1,3 @@
 # python-codes
 Hello, Humans.
-when I code i feel happy :)))
+when I code, I feel happy :)))
